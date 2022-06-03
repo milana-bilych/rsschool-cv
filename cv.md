@@ -32,8 +32,11 @@ __GitHub:__ milana-bilych
 ---
 ###Code example
 _I’m just learning, so I added this simple code from the task_
+######Write a function to split a string and convert it into an array of words.
 ```
-
+function stringToArray(string){
+  return string.split (' ')
+}
 ```
 
 ---
