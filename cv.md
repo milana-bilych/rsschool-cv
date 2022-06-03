@@ -12,3 +12,29 @@ __GitHub:__ milana-bilych
 ###About me
 <p> Аfter completing secondary education I want to try myself in the frontend development.  </p>
 <p> Can adapt to any conditions and deal with people. Ready to learn programming and try something new. I am a hard-working and very responsible person. Always ready to help if I can. </p>
+
+---
+###Skills
+* HTML5
+* CSS3
+* JavaScript (Basics)
+* Git, GitHub
+* VSCode
+* Sublime Text
+* Adobe Photoshop
+
+---
+###Courses, Education
+* WayUP Course «Frontend Developer: Start» (finished)
+* HTML, CSS, JavaScript, Git Courses on YouTube channel Vladilen Minin (in process)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in process)
+
+---
+###Code example
+
+---
+###Languages
+* Ukrainian: Native 
+* Russian: Upper-Intermediate
+* Polish: Intermediate
+* English: Intermediate
