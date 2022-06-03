@@ -31,6 +31,14 @@ __GitHub:__ milana-bilych
 
 ---
 ###Code example
+_I’m just learning, so I added this simple code from the task_
+```
+
+```
+
+---
+###Projects
+[CV project link](https://milana-bilych.github.io/rsschool-cv/cv)
 
 ---
 ###Languages
