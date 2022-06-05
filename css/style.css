@@ -21,10 +21,6 @@ body {
     margin-left: 80px;
 }
 
-.right {
-    margin-left: 80px;
-}
-
 p, div, a, ul, li, span {
 	box-sizing: border-box;
 }
@@ -40,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .photo {
     border-radius: 10%;
     width: 210px;
-    height: 290px;
+    height: 305px;
     border: #f9ca9bac solid 8px;
 }
 
@@ -75,4 +71,7 @@ h2 {
     letter-spacing: 1.2px;
 }
 
-
+.right {
+    margin-left: 80px;
+    width: 450px;
+}
