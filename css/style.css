@@ -21,6 +21,10 @@ body {
     margin-left: 80px;
 }
 
+.right {
+    margin-left: 80px;
+}
+
 p, div, a, ul, li, span {
 	box-sizing: border-box;
 }
@@ -44,12 +48,6 @@ hr {
     align: center;
     width: 50px;
     size: 5px;
-}
-
-.container {
-    text-align: center;
-    background: #cbd48493;
-    padding: 20px 65px 20px 70px;
 }
 
 .block {
@@ -76,3 +74,5 @@ h2 {
     line-height: 50px;
     letter-spacing: 1.2px;
 }
+
+
