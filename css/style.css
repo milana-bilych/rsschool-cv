@@ -5,73 +5,124 @@ body {
     margin: 0;
     line-height: 40px;
 }
-
-.shadow {
+    
+.container {
     flex-direction: column;
     width: 1024px;
     margin: 15px auto;
-    box-shadow: 10px 10px 45px -1px #0000003b;
+    box-shadow: 20px 10px 45px -1px #0000003b;
 }
-
+    
 .columns {
     display: flex;
 }
-
+    
 .left {
     margin-left: 80px;
 }
-
+    
 p, div, a, ul, li, span {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-
+    
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+    margin: 0;
 }
-
+    
 .photo-border {
     padding-top: 30px;
 }
-
+    
 .photo {
-    border-radius: 10%;
-    width: 210px;
-    height: 305px;
+    border-radius: 20px;
+    width: 310px;
+    height: 405px;
     border: #f9ca9bac solid 8px;
 }
 
+h3 {
+    text-align: center;
+}
+    
 hr {
-    align: center;
     width: 50px;
     size: 5px;
+    height: 1px;
+    background: #454545;
+    border: 0;
 }
 
+.mini_block {
+    margin-top: 10px;
+    background: #cbd48493;
+    padding: 20px 55px 20px 50px;
+    border-radius: 20px;
+    max-width: 225px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.small_pic {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.block li p {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #6d6b65;
+}
+    
 .block {
-    display: flex;
     margin: 0 auto;
 }
 
-h1 {
-    font-family: 'IBM Plex Serif', serif;
+.lang {
+    margin-top: 25px;
+    background: #b3d4849c;
 }
 
-h2 {
+.lang-name {
     font-family: 'Cormorant', serif;
 }
 
-.header {
-    color: #4d3b2a;
-    padding-top: 60px;
-    align-items: center;
+.lang li {
+    list-style-type: square;
 }
-
+    
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+}
+    
+h2 {
+    font-family: 'Cormorant', serif;
+}
+    
+.header {
+    padding-top: 60px;
+    font-size: 17px;
+}
+    
 .include {
+    color: #4d3b2a;
     margin-left: 50px;
     line-height: 50px;
     letter-spacing: 1.2px;
 }
 
-.right {
-    margin-left: 80px;
-    width: 450px;
+.about {
+    margin: 25px;
+    max-width: 505px;
+    background: #b3d4849c;
 }
