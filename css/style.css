@@ -15,10 +15,15 @@ body {
     
 .columns {
     display: flex;
+    padding-bottom: 30px;
 }
     
 .left {
-    margin-left: 80px;
+    margin: 0 35px 0 80px;
+}
+
+.right {
+    margin-right: 80px;
 }
     
 p, div, a, ul, li, span {
@@ -37,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
     width: 310px;
     height: 405px;
-    border: #f9ca9bac solid 8px;
+    border: #f9ca9ba0 solid 8px;
 }
 
 h3 {
@@ -52,9 +57,9 @@ hr {
     border: 0;
 }
 
-.mini_block {
-    margin-top: 10px;
-    background: #cbd48493;
+.mini-block {
+    margin-top: 25px;
+    background: #d6e1868b;
     padding: 20px 55px 20px 50px;
     border-radius: 20px;
     max-width: 225px;
@@ -69,7 +74,7 @@ ul {
     padding-left: 0;
 }
 
-.small_pic {
+.small-pic {
     margin-right: 5px;
     width: 18px;
     height: 18px;
@@ -81,7 +86,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #6d6b65;
+    color: #3b2e29;
+    transition: color 0.4s ease;
+}
+
+a:hover {
+    color: #615957;
 }
     
 .block {
@@ -89,8 +99,7 @@ a {
 }
 
 .lang {
-    margin-top: 25px;
-    background: #b3d4849c;
+    background: #b3d48471;
 }
 
 .lang-name {
@@ -98,6 +107,10 @@ a {
 }
 
 .lang li {
+    list-style-type: square;
+}
+
+.edu li {
     list-style-type: square;
 }
     
@@ -112,17 +125,54 @@ h2 {
 .header {
     padding-top: 60px;
     font-size: 17px;
-}
-    
-.include {
     color: #4d3b2a;
     margin-left: 50px;
     line-height: 50px;
     letter-spacing: 1.2px;
 }
 
-.about {
-    margin: 25px;
+.sec-column {
     max-width: 505px;
-    background: #b3d4849c;
+}
+
+.about {
+    background: #b3d48471;
+}
+
+.edu {
+    background: #f9ca9ba0;
+}
+
+.circle-pic {
+    width: 11px;
+    height: 11px;
+    vertical-align: baseline;
+    margin-left: 3px;
+}
+
+.circles {
+    display: inline;
+    margin-left: 5px;
+}
+
+.html-circles {
+    margin-left: 6.5px;
+}
+
+.css-circles {
+    margin-left: 25.5px;
+}
+
+.js-circles {
+    margin-left: 14px;
+}
+
+.list {
+    float: left;
+    margin: 0 35px;
+}
+
+.clear {
+    clear: both;
+    padding-bottom: 20px;
 }
