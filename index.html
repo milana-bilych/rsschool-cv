@@ -123,7 +123,7 @@
                     <section class="mini-block sec-column about">
                         <div class="block">
                             <h3>
-                                Profile 
+                                Profile
                                 <hr>
                             </h3>
                             <p>
@@ -230,13 +230,30 @@
                     </section>
                     <section class="mini-block code">
                         <div class="block">
-
+                            <h3>
+                                Code Example
+                                <hr>
+                            </h3>
+                            <p>
+                                The program reports the nth day (as an integer) on which the evaporator will be out of use.
+                            </p>
+                            <pre>
+                                <code>
+                                    function evaporator(content, evap_per_day, threshold){ 
+                                        threshold = threshold / 100
+                                        evap_per_day = evap_per_day / 100
+                                        return  Math.ceil(Math.log(threshold) / Math.log(1-evap_per_day))
+                                      }
+                                </code>
+                            </pre>
                         </div>
                     </section>
                 </main>
             </aside>
         </div>
         <footer class="footer">
+            <div class="block">
+            </div>
         </footer>
     </div>
 </body>

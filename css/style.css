@@ -137,6 +137,7 @@ h2 {
 
 .about {
     background: #b3d48471;
+    margin-top: 35px;
 }
 
 .edu {
@@ -175,4 +176,26 @@ h2 {
 .clear {
     clear: both;
     padding-bottom: 20px;
+}
+
+pre {
+    margin-left: -230px;
+}
+
+.code {
+    background: #f9ca9ba0;
+    margin-left: -361px;
+    max-width: 760px;
+    margin-top: 37px;
+    padding-bottom: 0;
+}
+
+.code p {
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}
+
+code {
+    text-align: left;
+    font-size: 15px;
 }
