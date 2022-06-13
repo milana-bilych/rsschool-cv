@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
@@ -15,7 +19,7 @@ body {
     
 .columns {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
     
 .left {
@@ -51,7 +55,6 @@ h3 {
     
 hr {
     width: 50px;
-    size: 5px;
     height: 1px;
     background: #454545;
     border: 0;
@@ -123,12 +126,25 @@ h2 {
 }
     
 .header {
-    padding-top: 60px;
-    font-size: 17px;
+    padding-top: 3px;
+    font-size: 16px;
     color: #4d3b2a;
-    margin-left: 50px;
+    text-align: right;
+    margin-right: 50px;
     line-height: 50px;
     letter-spacing: 1.2px;
+}
+
+.nav-list {
+    font-family: 'Cormorant', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
 }
 
 .sec-column {
@@ -137,7 +153,7 @@ h2 {
 
 .about {
     background: #b3d48471;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .edu {
@@ -184,9 +200,9 @@ pre {
 
 .code {
     background: #f9ca9ba0;
-    margin-left: -361px;
+    margin-right: -361px;
     max-width: 760px;
-    margin-top: 37px;
+    margin-top: 25px;
     padding-bottom: 0;
 }
 
@@ -198,4 +214,24 @@ pre {
 code {
     text-align: left;
     font-size: 15px;
+}
+
+.footer {
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.my-git {
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+}
+
+.rss {
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
 }
