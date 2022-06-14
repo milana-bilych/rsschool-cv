@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
@@ -5,73 +9,229 @@ body {
     margin: 0;
     line-height: 40px;
 }
-
-.shadow {
+    
+.container {
     flex-direction: column;
     width: 1024px;
     margin: 15px auto;
-    box-shadow: 10px 10px 45px -1px #0000003b;
+    box-shadow: 20px 10px 45px -1px #0000003b;
 }
-
+    
 .columns {
     display: flex;
+    padding-bottom: 10px;
 }
-
+    
 .left {
-    margin-left: 80px;
+    margin: 0 35px 0 80px;
 }
 
+.right {
+    margin-right: 80px;
+}
+    
 p, div, a, ul, li, span {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-
+    
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+    margin: 0;
 }
-
+    
 .photo-border {
     padding-top: 30px;
 }
-
+    
 .photo {
-    border-radius: 10%;
-    width: 210px;
-    height: 305px;
-    border: #f9ca9bac solid 8px;
+    border-radius: 20px;
+    width: 310px;
+    height: 405px;
+    border: #f9ca9ba0 solid 8px;
 }
 
+h3 {
+    text-align: center;
+}
+    
 hr {
-    align: center;
     width: 50px;
-    size: 5px;
+    height: 1px;
+    background: #454545;
+    border: 0;
 }
 
+.mini-block {
+    margin-top: 25px;
+    background: #d6e1868b;
+    padding: 20px 55px 20px 50px;
+    border-radius: 20px;
+    max-width: 225px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.small-pic {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.block li p {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #3b2e29;
+    transition: color 0.4s ease;
+}
+
+a:hover {
+    color: #615957;
+}
+    
 .block {
-    display: flex;
     margin: 0 auto;
 }
 
-h1 {
-    font-family: 'IBM Plex Serif', serif;
+.lang {
+    background: #b3d48471;
 }
 
-h2 {
+.lang-name {
     font-family: 'Cormorant', serif;
 }
 
-.header {
-    color: #4d3b2a;
-    padding-top: 60px;
-    align-items: center;
+.lang li {
+    list-style-type: square;
 }
 
-.include {
-    margin-left: 50px;
+.edu li {
+    list-style-type: square;
+}
+    
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+}
+    
+h2 {
+    font-family: 'Cormorant', serif;
+}
+    
+.header {
+    padding-top: 3px;
+    font-size: 16px;
+    color: #4d3b2a;
+    text-align: right;
+    margin-right: 50px;
     line-height: 50px;
     letter-spacing: 1.2px;
 }
 
-.right {
-    margin-left: 80px;
-    width: 450px;
+.nav-list {
+    font-family: 'Cormorant', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.sec-column {
+    max-width: 505px;
+}
+
+.about {
+    background: #b3d48471;
+    margin-top: 25px;
+}
+
+.edu {
+    background: #f9ca9ba0;
+}
+
+.circle-pic {
+    width: 11px;
+    height: 11px;
+    vertical-align: baseline;
+    margin-left: 3px;
+}
+
+.circles {
+    display: inline;
+    margin-left: 5px;
+}
+
+.html-circles {
+    margin-left: 6.5px;
+}
+
+.css-circles {
+    margin-left: 25.5px;
+}
+
+.js-circles {
+    margin-left: 14px;
+}
+
+.list {
+    float: left;
+    margin: 0 35px;
+}
+
+.clear {
+    clear: both;
+    padding-bottom: 20px;
+}
+
+pre {
+    margin-left: -230px;
+}
+
+.code {
+    background: #f9ca9ba0;
+    margin-right: -361px;
+    max-width: 760px;
+    margin-top: 25px;
+    padding-bottom: 0;
+}
+
+.code p {
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}
+
+code {
+    text-align: left;
+    font-size: 15px;
+}
+
+.footer {
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.my-git {
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+}
+
+.rss {
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
 }
